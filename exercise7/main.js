@@ -1,0 +1,11 @@
+let colors = ['blue', 'green','black'];
+console.log(colors);
+console.log(colors[0]);
+console.log(colors[1]);
+console.log(colors[2]);
+console.log("adding a color to the end of the array");
+colors.push('red');
+console.log(colors);
+console.log("removing the first color of the array");
+colors.shift();
+console.log(colors);
